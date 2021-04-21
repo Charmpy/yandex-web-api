@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if current_user.is_authenticated %}
+    <a href="jobs_list" class="btn btn-primary">просмотреть работы</a>
+    <a href="departments_list" class="btn btn-primary">просмотреть департаменты</a>
+    {% endif %}
+{% endblock %}

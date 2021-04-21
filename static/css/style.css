@@ -1,0 +1,28 @@
+.centred {
+   text-align: center;
+   text-valign: center;
+}
+
+size {
+width: 200px;
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 50px;
+    font-size: 15pt;
+}
+
+.head {
+    padding-left: 20px;
+    color: gray;
+}
+
+form.login_form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
